@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.25914.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{725A26DF-241C-4A10-AC90-A6A6FA60142B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JauntJournal", "src\JauntJournal\JauntJournal.csproj", "{300FCEB3-1108-4EBE-A133-7A548C17C460}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D63D877-79F3-4065-8EB1-EB7BACDB4AB1}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.ci.build.yml = docker-compose.ci.build.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{300FCEB3-1108-4EBE-A133-7A548C17C460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300FCEB3-1108-4EBE-A133-7A548C17C460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300FCEB3-1108-4EBE-A133-7A548C17C460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300FCEB3-1108-4EBE-A133-7A548C17C460}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{300FCEB3-1108-4EBE-A133-7A548C17C460} = {725A26DF-241C-4A10-AC90-A6A6FA60142B}
+	EndGlobalSection
+EndGlobal
